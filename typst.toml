@@ -1,0 +1,12 @@
+[package]
+name = "tu"
+version = "0.1.0"
+repository = "https://github.com/Roger-luo/tu"
+entrypoint = "src/lib.typ"
+authors = [
+  "Roger Luo <https://github.com/Roger-luo>",
+]
+license = "MIT"
+description = "Collections of drawing tools for typst"
+keywords = [ "draw", "canvas", "plot", "chart", "tree", "cetz" ]
+exclude = [ "/gallery/*", "manual.pdf", "manual.typ" ]
